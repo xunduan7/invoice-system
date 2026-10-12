@@ -1,0 +1,21 @@
+# Local database, uploaded invoices, and payment evidence
+/backend/data/
+/backend/uploads/
+*.mv.db
+*.trace.db
+
+# Build output and downloaded dependencies
+/backend/target/
+/frontend/node_modules/
+/frontend/dist/
+
+# Local credentials and editor files
+/local-ai-key.cmd
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.idea/
+.vscode/
+*.log
